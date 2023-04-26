@@ -1,0 +1,15 @@
+.user {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.contact {
+  font-size: 26px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.btn {
+  margin-left: 15px;
+  cursor: pointer;
+}
