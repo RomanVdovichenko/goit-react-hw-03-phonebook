@@ -24,6 +24,7 @@ export class App extends Component {
 
   componentDidUpdate(_, prevState) {
     if (
+      localStorage.getItem('contacts') ||
       // prevState.contacts.length !== 0 &&
       prevState.contacts.length !== this.state.contacts.length
     ) {
